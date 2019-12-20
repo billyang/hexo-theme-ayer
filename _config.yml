@@ -3,19 +3,20 @@ menu:
   主页: /
   目录: /archives
   标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
-  关于我: /2019/about
+  GoLang: /golang
+  .NET: /netcore
+  关于我: /about
+
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
-logo: /images/ayer-side.svg
+logo: /images/avatar.png
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover1.jpg  # images目录下附送多张美图，可更换
+  path: /images/cover5.jpg  # images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条  
@@ -47,7 +48,7 @@ alipay: /images/alipay.jpg
 weixin: /images/wechat.jpg
 
 # 是否启用搜索
-search: true
+search: false
 
 # RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)
 rss: /atom.xml
@@ -78,7 +79,7 @@ gitalk:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github: 
   # (关闭请设置为false)
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  url: https://github.com/billyang/hexo-theme-ayer
 
 # fancybox(仅用于相册展示，若需要可配置albums)
 fancybox: true
@@ -89,8 +90,8 @@ busuanzi:
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
-  enable: true
-  url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
+  enable: false
+  url: ''
 
 # Google Analytics
 google_analytics: ''
