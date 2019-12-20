@@ -13,7 +13,7 @@
 ### Install
 
 ``` bash
-$ git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
+$ git clone https://github.com/billyang/hexo-theme-ayer.git themes/ayer
 ```
 
 ### Enable
